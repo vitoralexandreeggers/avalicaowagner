@@ -1,45 +1,44 @@
 [
- {
-      "nome" : "Giovana",
-      "idade" : "15",
-      "cor" : "verde",
-      "time" : "palmeiras",
-      "butao" : "botar"
- },
+     {
+          "nome" : "Giovana",
+          "idade" : "15",
+          "cor" : "verde",
+          "time" : "palmeiras",
+          "butao" : "botar"
+     },
 
- {
-      "nome" : "Gio",
-      "idade" : "19",
-      "cor" : "vermelo",
-      "time" : "santos",
-      "butao" : "botar"
- },
+     {
+          "nome" : "Gio",
+          "idade" : "19",
+          "cor" : "vermelo",
+          "time" : "santos",
+          "butao" : "botar"
+     },
 
- {
-      "nome" : "Giovanna",
-      "idade" : "18",
-      "cor" : "branco",
-      "time" : "flamengo",
-      "butao" : "botar"
+     {
+          "nome" : "Giovanna",
+          "idade" : "18",
+          "cor" : "branco",
+          "time" : "flamengo",
+          "butao" : "botar"
 
- },
+     },
 
- {
-      "nome" : "Giovanar",
-      "idade" : "13",
-      "cor" : "marrom",
-      "time" : "gremio",
-      "butao" : "botar"
+     {
+          "nome" : "Giovanar",
+          "idade" : "13",
+          "cor" : "marrom",
+          "time" : "gremio",
+          "butao" : "botar"
 
- },
+     },
 
- {
-      "nome" : "Giovani",
-      "idade" : "13",
-      "cor" : "azul",
-      "time" : "afa",
-      "butao" : "botar"
+     {
+          "nome" : "Giovani",
+          "idade" : "13",
+          "cor" : "azul",
+          "time" : "afa",
+          "butao" : "botar"
 
- }
-
+     }
 ]
