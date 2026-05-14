@@ -22,6 +22,9 @@ async function giovanalinda() {
                 <td>${item.cor}</td>
                 <td>${item.time}</td>
                 <td><button type="button">Botar</button></td>
+                 <td>
+                <type="button" onclick="this.closest('tr').remove()">Fds</button>
+                </td>
             `;
 
             destino.appendChild(linha);
@@ -30,4 +33,9 @@ async function giovanalinda() {
     } catch (error) {
         console.error("Erro ao buscar dados:", error);
     } 
+}
+
+function blex() {
+    const destino = document.getElementById('giovana');
+    destino.innerHTML = '';
 }
