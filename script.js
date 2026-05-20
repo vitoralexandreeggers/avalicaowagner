@@ -15,15 +15,17 @@ async function giovanalinda() {
 
         pessoas.forEach(item => {
             const linha = document.createElement('tr');
+
+            const itemString = JSON.stringify(item).replaceAll('"', '&quot;');
         
             linha.innerHTML = `
                 <td>${item.nome}</td>
                 <td>${item.idade}</td>
                 <td>${item.cor}</td>
                 <td>${item.time}</td>
-                <td><button type="button">Botar</button></td>
-                 <td>
-                <type="button" onclick="this.closest('tr').remove()">Fds</button>
+                <td>
+                    <button type="button" onclick="niggas(${itemString})">Botar</button>
+                    <button type="button" onclick="this.closest('tr').remove()">Fds</button>
                 </td>
             `;
 
@@ -38,4 +40,13 @@ async function giovanalinda() {
 function blex() {
     const destino = document.getElementById('giovana');
     destino.innerHTML = '';
+
+}
+
+function niggas(objetoDUDE) {
+
+    document.getElementById('nome').value = objetoDUDE.nome;
+    document.getElementById('idade').value = objetoDUDE.idade;
+    document.getElementById('cor').value = objetoDUDE.cor;
+    document.getElementById('time').value = objetoDUDE.time;
 }
